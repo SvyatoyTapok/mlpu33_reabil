@@ -1,0 +1,94 @@
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.header{
+    display: flex;
+    position:relative;
+    height: 100px;
+    background-color: #00ffa6;
+    align-items: center;
+    width: 100%;
+    border-bottom-right-radius:40px;
+    border-bottom-left-radius:40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+.org_name{
+    color:black;
+    font-size: 14px;
+    font-family: "Roboto Mono", monospace;
+    width: 220px;
+    text-align: right;
+}
+.otdelenie_name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+}
+.upper_menu{
+    display: flex;
+    width: 100%;
+    padding-top:20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
+    font-family: "Roboto Mono", monospace;
+}
+.upper_menu_item_1{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    transition: color, 0.5s;
+}
+.upper_menu_item_1:hover{
+    transition: color, 0.5s;
+    background-color: #00ffa6;
+}
+.upper_menu_item_2{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.upper_menu_item_2:hover{
+    transition: color, 0.5s;
+    background-color: #00ffa6;
+}
+.upper_menu_item_3{
+    transition: color, 0.5s;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.upper_menu_item_3:hover{
+    transition: color, 0.5s;
+    background-color: #00ffa6;
+}
+.upper_menu_item_4{
+    transition: color, 0.5s;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.upper_menu_item_4:hover{
+    transition: color, 0.5s;
+    background-color: #00ffa6;
+}
+.upper_menu_item_5{
+    transition: color, 0.5s;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.upper_menu_item_5:hover{
+    transition: color, 0.5s;
+    background-color: #00ffa6;
+}
